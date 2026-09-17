@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ArrowUpRight, ChevronDown, CircleAlert, Mail, MapPin, Phone, Search } from 'lucide-react'
 import './styles.css'
+import logo from './Logo.jpeg'
 
 const API = import.meta.env.VITE_API_BASE || 'https://teamsircleserver-4.onrender.com/api'
 
@@ -64,7 +65,7 @@ function App() {
     <div className="site-shell">
       <header className="nav-wrap">
         <a className="brand" href="#top" aria-label="Dee International home">
-          <span className="brand-mark">DI</span>
+          <img src={logo} className="project-logo" alt="Project Logo" />
           <span><strong>Dee</strong> International</span>
           
         </a>
