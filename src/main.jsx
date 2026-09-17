@@ -66,7 +66,7 @@ function App() {
       <header className="nav-wrap">
         <a className="brand" href="#top" aria-label="Dee International home">
           <img src={logo} className="project-logo" alt="Project Logo" />
-          <span><strong>Dee</strong> International</span>
+      
           
         </a>
         <nav className="nav-links">
