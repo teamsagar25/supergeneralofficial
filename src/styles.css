@@ -24,7 +24,7 @@ button, input { font: inherit; } button { cursor: pointer; }
 .app-filter { width: 100%; max-width: 1280px; -webkit-overflow-scrolling: touch; touch-action: pan-x; overscroll-behavior-x: contain; }
 .category-filter { -webkit-overflow-scrolling: touch; touch-action: pan-x; overscroll-behavior-x: contain; }
 .project-logo {
-  width: 66px;
-  height: 66px;
+  width: 76px;
+  height: 76px;
   object-fit: contain;
 }
