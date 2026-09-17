@@ -66,12 +66,12 @@ function App() {
       <header className="nav-wrap">
         <a className="brand" href="#top" aria-label="Dee International home">
           <img src={logo} className="project-logo" alt="Project Logo" />
-          <span><strong>Dee</strong> International</span>
+         
           
         </a>
         <nav className="nav-links">
           <button className={page === 'home' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('home')}>Catalog</button>
-          <button className={page === 'about' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('about')}>About</button>
+          <button className={page === 'about' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('about')}>About us</button>
           <button className={page === 'contact' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('contact')}>Contact</button>
         </nav>
         <a className="nav-contact" href="tel:+977 - 9705407460">Talk to us <ArrowUpRight size={16} /></a>
